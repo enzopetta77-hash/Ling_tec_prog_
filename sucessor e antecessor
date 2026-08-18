@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(int argc, char* argv) {
+int n, antecessor, sucessor;
+printf("entre com o valor de N");
+scanf("%d", &n);
+sucessor = n+1;
+antecessor = n-1;
+printf(" o numero %d, seu antecessor %d e seu sucessor %d" ,n,antecessor, sucessor );
+
+
+
+	return 0;
+}
