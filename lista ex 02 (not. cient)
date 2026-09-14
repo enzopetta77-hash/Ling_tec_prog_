@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    double numero;
+
+    printf("Digite um numero positivo: ");
+    scanf("%lf", &numero);
+
+    printf("Notacao cientifica: %e\n", numero);
+
+    return 0;
+}
