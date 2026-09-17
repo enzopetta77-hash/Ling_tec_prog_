@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+	float a, b, soma;
+	
+	printf("Qual o valor do primeiro numero ");
+	scanf("%f", &a);
+	
+	printf("Qual o valor do segundo numero que quer que seja somado ");
+	scanf("%f", &b);
+	
+	soma = a + b;
+	
+	printf("A soma entre esses dois numeros e igual a %.2f", soma);
+	
+	return 0;
+}
